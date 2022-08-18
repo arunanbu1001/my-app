@@ -4,7 +4,7 @@
   }
   .autem img {
     border-radius: 1;
-    width: 350px;
+    width: 300px;
     margin: 0px 10px 0px 50px;
   }
   .autem h2 {
@@ -33,4 +33,30 @@
       background-color: rgb(208, 228, 245);
       color: #85b0be;
       font-weight: 500;
+  }
+  .map {
+    width: 100%;
+  }
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .contact-container{
+    background-color: #f6f9fa;
+  }
+  .contact {
+    background-color: #f6f9fa;
+    height: 500px;
+  }
+  .contact h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
   }
