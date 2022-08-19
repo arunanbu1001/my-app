@@ -1,14 +1,23 @@
 import React from 'react'
 import Props1 from './Props1'
+import './props.css'
+import image3 from "./images/image3.jpg"
+import image4 from "./images/image4.jpg"
+import image5 from "./images/image5.jpg"
+ 
 
 export default function Props() {
-    const submit=(y)=>{
-        console.log('child component',y)
-    }
+  const products = [
+    { image: image3, name: "NS250", year: "2021", price: "190000", value: 0 },
+    { image: image4, name: "RC390", year: "2022", price: "250000", value: 1 },
+    { image: image5, name: "GT650", year: "2019", price: "340000", value: 2 },
+  ];
+
   return (
-    <div>
-        <Props1 name={"arun"} age={20} submit={submit} ></Props1>
-    {/* <h1>{y}</h1> */}
-    </div>
+    <div className="bike1">
+    {products.map((data) => (
+      <Props1 obj={data} key={data.value} />
+    ))}
+  </div>
   )
 }

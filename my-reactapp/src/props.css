@@ -1,0 +1,6 @@
+.bike1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px 50px 50px 50px;
+}
