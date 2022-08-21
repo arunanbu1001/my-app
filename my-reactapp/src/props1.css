@@ -1,8 +1,14 @@
 
 .bike img{
-   width: 150px; 
+   width: 150px;  
+    border-radius: 20px;
+   margin-top: 10PX;
    height: 125px;
+   
 }
 .bike{
-    width: 200px;
+    width: 350px;
+    margin: 50px 45px 50px 0px;
+    text-align: center;
+    background-color: #bec2c4;
 }

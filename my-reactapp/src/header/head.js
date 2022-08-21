@@ -1,9 +1,5 @@
 import React from 'react'
 import './head.css';
-import image2 from "../images/image2.jpg"
-
-import image1 from "../images/image1.jpg"
-
 function Head() {
   return (
    
